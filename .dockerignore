@@ -1,0 +1,10 @@
+# Git files
+.git
+.gitignore
+
+# Local config files
+.editorconfig
+
+# Information files
+LICENSE
+README.md
