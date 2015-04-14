@@ -26,7 +26,7 @@ export HANDBRAKE_OPTIONS="-e x264  -q 20.0 -a 1,1 -E ffaac,copy:ac3 -B 160,160 -
 run -v /media/Pre-Release:/input \
     -v /media/converting:/output \
     handbrake-cli \
-    -i /input/movie.mkv
+    -i /input/movie.mkv \
     -o /output/movie.mkv \
     $HANDBRAKE_OPTIONS
 ```
